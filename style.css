@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.Button{
+    background-color: rgb(2, 2, 2);
+    width: 164px;
+    color: aliceblue;
+    position: absolute;
+    top: 320px;
+    right: 402px;
+    display: flex;
+    /* border: 2px solid   blue; */
+}
+.imgdiv1{
+    width: 50%;
+    padding: 10px;
+    padding-left: 20px;
+}
+.imgdiv2{
+    width: 50%;
+    height: 3rem;
+    padding: 10px;
+    padding-left: 40px;
+}
+.imgdiv1:hover{
+    background-color: #585555;
+}
+.imgdiv2:hover{
+    background-color: #585555;
+}
+
+.FirstSec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.header{
+    width: 19rem;
+    font-size: 35px;
+}
+.paraGrapgh{
+    width: 25rem;
+    line-height: 21px;
+}
+.shopNow{
+    font-size: 17px;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+}
+.image01 {
+  width: 50rem;
+  height: 23rem;
+}
+.SecondSec {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+}
+.image02,
+.image03 {
+  width: 25rem;
+  height: 15rem;
+}
+.SocondSECtion{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    gap: 10px;
+}
+.aboutWork{
+    letter-spacing: 3px;
+}
+.ParaSecond{
+    line-height: 21px;
+}
+.left{
+    text-align: start;
+    padding: 20px;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+padding-left: 50px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color: bisque;
+  padding: 2px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
