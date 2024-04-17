@@ -8,14 +8,12 @@ const thirdSechide =document.querySelector('.thirdSechide')
 
 
 const hideSectionHeader = document.querySelector('.hideSectionHeader')
-let count = 0
-console.log(count)
+let count = 0;
 hideSectionHeader.innerHTML=array[count]
 right.addEventListener('click',()=>{
-    console.log('HELOO');
    count++
-console.log(count)
    if(count>=array.length){
+ 
       count=array.length
    }else{
     hideSectionHeader.innerHTML=array[count]
@@ -25,7 +23,6 @@ console.log(count)
 
 left.addEventListener('click',()=>{
     count--
-    console.log(count)
     if(count<=0){
        count = 0
     }else{
