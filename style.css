@@ -44,8 +44,8 @@ body {
   width: 148px;
   color: aliceblue;
   position: absolute;
-  top: 368px;
-  right: 401px;
+  top: 448px;
+  right: 366px;
   display: flex;
 }
 
@@ -108,7 +108,7 @@ body {
 
 .image01 {
   width: 50rem;
-  height: 26rem;
+  height: 31rem;
 }
 
 .SecondSec {
@@ -120,7 +120,7 @@ body {
 .image02,
 .image03 {
   width: 25rem;
-  height: 13rem;
+  height: 16rem;
 }
 
 .SocondSECtion {
@@ -144,12 +144,12 @@ body {
 .left {
   text-align: start;
   padding: 20px;
-  height: 23rem;
+  height: 26rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  gap: 15px;
+  gap: 25px;
   padding-left: 50px;
 }
 
