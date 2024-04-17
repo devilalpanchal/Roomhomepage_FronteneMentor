@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   padding: 0px;
   margin: 0px;
@@ -13,33 +12,33 @@ body {
   font-weight: 600;
   font-style: normal;
 }
-.headerFirst{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    left: 60px;
-    top: 35px;
-    gap: 60px;
+
+.headerFirst {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  left: 60px;
+  top: 35px;
+  gap: 60px;
 }
-.room{
-    font-size: 25px;
+
+.homepage {
+  display: flex;
+  gap: 30px;
 }
-.homepage{
-    display: flex;
-    gap: 30px;
+
+.homepage>div {
+  font-size: 19px;
 }
-.homepage>div{
-    font-size: 19px;
-    
+
+.homepage>div:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid white;
+  font-size: 19px;
 }
-.homepage>div:hover{
-    padding-bottom: 3px;
-    border-bottom: 2px solid white;
-    font-size: 19px;
-    
-}
+
 .Button {
   background-color: rgb(2, 2, 2);
   width: 148px;
@@ -49,20 +48,24 @@ body {
   right: 401px;
   display: flex;
 }
+
 .imgdiv1 {
   width: 50%;
   padding: 10px;
   padding-left: 20px;
 }
+
 .imgdiv2 {
   width: 50%;
   height: 3rem;
   padding: 10px;
   padding-left: 40px;
 }
+
 .imgdiv1:hover {
   background-color: #585555;
 }
+
 .imgdiv2:hover {
   background-color: #585555;
 }
@@ -71,46 +74,55 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .secondSechide {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .thirdSechide {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .header {
   width: 19rem;
   font-size: 35px;
 }
+
 .paraGrapgh {
   width: 25rem;
   line-height: 21px;
   color: rgb(75, 74, 74);
-
 }
+
 .shopNow {
   font-size: 17px;
   text-transform: capitalize;
   letter-spacing: 10px;
 }
+
 .shopNow:hover {
   color: #727070;
 }
+
 .image01 {
   width: 50rem;
   height: 26rem;
 }
+
 .SecondSec {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
 }
+
 .image02,
 .image03 {
   width: 25rem;
   height: 13rem;
 }
+
 .SocondSECtion {
   display: flex;
   flex-direction: column;
@@ -118,14 +130,17 @@ body {
   justify-content: center;
   gap: 1rem;
 }
+
 .aboutWork {
   letter-spacing: 3px;
 }
+
 .ParaSecond {
   line-height: 21px;
   color: rgb(75, 74, 74);
   width: 520px;
 }
+
 .left {
   text-align: start;
   padding: 20px;
@@ -137,18 +152,31 @@ body {
   gap: 15px;
   padding-left: 50px;
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
   background-color: bisque;
   padding: 2px;
 }
+
+/* to mobile haeder */
+.headerforMobile {
+  background-color: white;
+  color: black;
+  display: flex;
+  gap: 14px;
+  padding: 17px;
+}
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
 .hide {
-    display: none;
-  }
-  .show {
-    display: block;
-  }
+  display: none;
+}
+
+.show {
+  display: block;
+}

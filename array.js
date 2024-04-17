@@ -1,7 +1,10 @@
 let array = [
-    `
+  `
     <div class="FirstSec">
     <div>
+    
+    <img class="imgmob01 hide" src="./images/mobile-image-hero-1.jpg" alt="">
+
       <img
         class="image01"
         src="./images/desktop-image-hero-1.jpg"
@@ -24,9 +27,11 @@ let array = [
     </div>
   </div>
     `,
-    `
+  `
 <div class="secondSechide ">
 <div>
+<img class="imgmob01 hide" src="./images/mobile-image-hero-2.jpg" alt="">
+
   <img class="image01" src="./images/desktop-image-hero-2.jpg" alt="" />
 </div>
 <div class="left">
@@ -46,9 +51,11 @@ let array = [
 </div>
 </div>
 `,
-    `
+  `
 <div class="thirdSechide ">
 <div>
+<img class="imgmob01 hide" src="./images/mobile-image-hero-3.jpg" alt="">
+
   <img class="image01" src="./images/desktop-image-hero-3.jpg" alt="" />
 </div>
 <div class="left">
