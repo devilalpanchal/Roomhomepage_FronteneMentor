@@ -3,60 +3,94 @@
   padding: 0;
   box-sizing: border-box;
 }
-.hide {
-  display: none;
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
-.show {
-  display: block;
-}
-.Button{
-    background-color: rgb(2, 2, 2);
-    width: 164px;
-    color: aliceblue;
+.headerFirst{
     position: absolute;
-    top: 320px;
-    right: 402px;
     display: flex;
-    /* border: 2px solid   blue; */
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    left: 60px;
+    top: 35px;
+    gap: 60px;
 }
-.imgdiv1{
-    width: 50%;
-    padding: 10px;
-    padding-left: 20px;
+.room{
+    font-size: 25px;
 }
-.imgdiv2{
-    width: 50%;
-    height: 3rem;
-    padding: 10px;
-    padding-left: 40px;
+.homepage{
+    display: flex;
+    gap: 30px;
 }
-.imgdiv1:hover{
-    background-color: #585555;
+.homepage>div{
+    font-size: 19px;
+    
 }
-.imgdiv2:hover{
-    background-color: #585555;
+.Button {
+  background-color: rgb(2, 2, 2);
+  width: 148px;
+  color: aliceblue;
+  position: absolute;
+  top: 368px;
+  right: 401px;
+  display: flex;
+}
+.imgdiv1 {
+  width: 50%;
+  padding: 10px;
+  padding-left: 20px;
+}
+.imgdiv2 {
+  width: 50%;
+  height: 3rem;
+  padding: 10px;
+  padding-left: 40px;
+}
+.imgdiv1:hover {
+  background-color: #585555;
+}
+.imgdiv2:hover {
+  background-color: #585555;
 }
 
 .FirstSec {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.header{
-    width: 19rem;
-    font-size: 35px;
+.secondSechide {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.paraGrapgh{
-    width: 25rem;
-    line-height: 21px;
+.thirdSechide {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.shopNow{
-    font-size: 17px;
-    text-transform: capitalize;
-    letter-spacing: 10px;
+.header {
+  width: 19rem;
+  font-size: 35px;
+}
+.paraGrapgh {
+  width: 25rem;
+  line-height: 21px;
+  color: rgb(75, 74, 74);
+
+}
+.shopNow {
+  font-size: 17px;
+  text-transform: capitalize;
+  letter-spacing: 10px;
 }
 .image01 {
   width: 50rem;
-  height: 23rem;
+  height: 26rem;
 }
 .SecondSec {
   display: grid;
@@ -66,31 +100,32 @@
 .image02,
 .image03 {
   width: 25rem;
-  height: 15rem;
+  height: 13rem;
 }
-.SocondSECtion{
-    display: flex;
-    flex-direction: column;
-    align-items:start;
-    justify-content: center;
-    gap: 10px;
+.SocondSECtion {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
 }
-.aboutWork{
-    letter-spacing: 3px;
+.aboutWork {
+  letter-spacing: 3px;
 }
-.ParaSecond{
-    line-height: 21px;
+.ParaSecond {
+  line-height: 21px;
+  color: rgb(75, 74, 74);
 }
-.left{
-    text-align: start;
-    padding: 20px;
-    height: 23rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    gap: 15px;
-padding-left: 50px;
+.left {
+  text-align: start;
+  padding: 20px;
+  height: 23rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 15px;
+  padding-left: 50px;
 }
 .attribution {
   font-size: 11px;
@@ -101,3 +136,9 @@ padding-left: 50px;
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+.hide {
+    display: none;
+  }
+  .show {
+    display: block;
+  }

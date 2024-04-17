@@ -1,93 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Room homepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Manrope:wght@200..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Room homepage</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- link fornqwesome? -->
-
-
-</head>
-<body>
-
-  <section class="Main">
-    <div class="Button">
-      <div class="imgdiv1">
-        <img class="angleLeft"  src="./images/icon-angle-left.svg" alt="">
+  <body>
+    <section class="Main">
+      <div class="Button">
+        <div class="imgdiv1">
+          <img class="angleLeft" src="./images/icon-angle-left.svg" alt="" />
+        </div>
+        <div class="imgdiv2">
+          <img src="./images/icon-angle-right.svg" alt="" class="anglesRight" />
+        </div>
       </div>
-      <div class="imgdiv2">
-        <img src="./images/icon-angle-right.svg" alt="" class="anglesRight">
+      <div class="headerFirst">
+        <h3 class="room">room</h3>
+        <div class="homepage">
+          <div>home</div>
+          <div>shop</div>
+          <div>about</div>
+          <div>contact</div>
+        </div>
+      </div>
+      <div class="hideSectionHeader">
+      
       </div>
 
+      <div class="SecondSec">
+        <img class="image02" src="./images/image-about-dark.jpg" alt="" />
+        <div class="SocondSECtion">
+          <h3 class="aboutWork">ABOUT OUT FURNITURE</h3>
+          <p class="ParaSecond">
+            Our multifunctional collection blends design and function to suit
+            your individual taste. Make each room unique, or pick a cohesive
+            theme that best express your interests and what inspires you. Find
+            the furniture pieces you need, from traditional to contemporary
+            styles or anything in between. Product specialists are available to
+            help you create your dream space.
+          </p>
+        </div>
+        <img class="image03" src="./images/image-about-light.jpg" alt="" />
+      </div>
+    </section>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://tinyurl.com/2xkg3l66">Developer Devid</a>.
     </div>
-    <div class="FirstSec">
-      <div>
-        <img class="image01" src="./images/desktop-image-hero-1.jpg" alt="">
-      </div>
-      <div class="left">
-        <h1 class="header">
 
-          Discover innovative ways to decorate
-
-        </h1>
-        <p class="paraGrapgh">
-          We provide unmatched quality, comfort, and style for property owners across the country. 
-          Our experts combine form and function in bringing your vision to life. Create a room in your 
-          own style with our collection and make your property a reflection of you and what you love.
-        
-        </p>
-        <p class="shopNow">
-          SHOP NOW
-        </p>
-      </div>
-    </div>
-    <div class="SecondSec">
-      <img class="image02" src="./images/image-about-dark.jpg" alt="">
-      <div class="SocondSECtion">
-        <h3 class="aboutWork">
-          ABOUT OUT FURNITURE
-
-        </h3>
-        <p class="ParaSecond">
-          Our multifunctional collection blends design and function to suit your individual taste.
-          Make each room unique, or pick a cohesive theme that best express your interests and what
-          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
-          or anything in between. Product specialists are available to help you create your dream space.
-        </p>
-      </div>
-      <img class="image03" src="./images/image-about-light.jpg" alt="">
-    </div>
-  </section>
-  <!-- 
-  Home
-  Shop
-  About
-  Contact
-  We are available all across the globe
-
-  With stores all over the world, it's easy for you to find furniture for your home or place of business. 
-  Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
-  store locator. Any questions? Don't hesitate to contact us today.
-
-  Shop now
-
-  Manufactured with the best materials
-
-  Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
-  to ensure that every product is made as perfect and as consistent as possible. With three decades of 
-  experience in this industry, we understand what customers want for their home and office.
-
-  Shop now -->
-
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Developer Devid</a>.
-  </div>
-</body>
+    <!-- to add functionality -->
+    <script src="array.js"></script>
+    <script src="function.js"></script>
+  </body>
 </html>
