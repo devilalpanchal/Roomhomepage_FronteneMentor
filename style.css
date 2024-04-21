@@ -41,11 +41,11 @@ body {
 
 .Button {
   background-color: rgb(2, 2, 2);
-  width: 149px;
+  width: 217px;
   color: aliceblue;
   position: absolute;
   top: 496px;
-  right: 369px;
+  right: 450px;
   display: flex;
 }
 
@@ -73,6 +73,7 @@ body {
 .FirstSec {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 50px;
 }
 
 .secondSechide {
@@ -115,11 +116,12 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
+  width: 100%;
 }
 
 .image02,
 .image03 {
-  width: 24rem;
+  width: 26rem;
   height: 16rem;
 }
 
