@@ -41,12 +41,14 @@ body {
 
 .Button {
   background-color: rgb(2, 2, 2);
-  width: 217px;
+  width: 160px;
   color: aliceblue;
   position: absolute;
-  top: 496px;
-  right: 450px;
+  top: 480px;
+  right: 460px;
   display: flex;
+  padding: 10px;
+
 }
 
 .imgdiv1 {
@@ -108,7 +110,7 @@ body {
 }
 
 .image01 {
-  width: 52rem;
+  width: 55rem;
   height: 34rem;
 }
 
