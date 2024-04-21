@@ -41,16 +41,16 @@ body {
 
 .Button {
   background-color: rgb(2, 2, 2);
-  width: 148px;
+  width: 149px;
   color: aliceblue;
   position: absolute;
-  top: 448px;
-  right: 366px;
+  top: 496px;
+  right: 369px;
   display: flex;
 }
 
 .imgdiv1 {
-  width: 50%;
+  width: 720%;
   padding: 10px;
   padding-left: 20px;
 }
@@ -107,19 +107,19 @@ body {
 }
 
 .image01 {
-  width: 50rem;
-  height: 31rem;
+  width: 52rem;
+  height: 34rem;
 }
 
 .SecondSec {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 15px;
+  gap: 40px;
 }
 
 .image02,
 .image03 {
-  width: 25rem;
+  width: 24rem;
   height: 16rem;
 }
 
