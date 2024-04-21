@@ -39,16 +39,17 @@ body {
   font-size: 19px;
 }
 
+
+
 .Button {
   background-color: rgb(2, 2, 2);
   width: 160px;
   color: aliceblue;
   position: absolute;
   top: 480px;
-  right: 460px;
+  right:500px;
   display: flex;
   padding: 10px;
-
 }
 
 .imgdiv1 {
