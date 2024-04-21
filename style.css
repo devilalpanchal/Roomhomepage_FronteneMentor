@@ -43,11 +43,11 @@ body {
 
 .Button {
   background-color: rgb(2, 2, 2);
-  width: 160px;
+  width: 145px;
   color: aliceblue;
   position: absolute;
   top: 480px;
-  right:383px;
+  right:395px;
   display: flex;
   padding: 10px;
 }
