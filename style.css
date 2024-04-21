@@ -142,6 +142,7 @@ body {
 }
 
 .left {
+  margin-top: 40px;
   text-align: start;
   padding: 20px;
   height: 26rem;
