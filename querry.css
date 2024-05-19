@@ -1,79 +1,79 @@
 @media only screen and (max-width: 990px) {
-    .headerFirst {
-        left: 40px;
-        gap: 100px;
-        top: 40px;
-    }
+  .headerFirst {
+    left: 40px;
+    gap: 100px;
+    top: 40px;
+  }
 
-    .homepage {
-        display: none;
-    }
+  .homepage {
+    display: none;
+  }
 
-    .threeline {
-        display: block;
-    }
+  .threeline {
+    display: block;
+  }
 
-    .Button {
-        width: 120px;
-        top: 327px;
-        right: 0px;
-    }
+  .Button {
+    width: 120px;
+    top: 327px;
+    right: 0px;
+  }
 
-    .imgdiv2 {
-        padding-left: 25px;
-    }
+  .imgdiv2 {
+    padding-left: 25px;
+  }
 
-    .FirstSec,
-    .secondSechide,
-    .thirdSechide {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+  .FirstSec,
+  .secondSechide,
+  .thirdSechide {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-    .SecondSec {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
+  .SecondSec {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 
-    .SocondSECtion {
-        gap: 1rem;
-        margin-left: 30px;
-    }
+  .SocondSECtion {
+    gap: 1rem;
+    margin-left: 30px;
+  }
 
-    .left {
-        gap: 20px;
-        padding-left: 30px;
-    }
+  .left {
+    gap: 20px;
+    padding-left: 30px;
+  }
 
-    .paraGrapgh {
-        width: 20rem;
-        line-height: 21px;
-        color: rgb(75, 74, 74);
-    }
+  .paraGrapgh {
+    width: 20rem;
+    line-height: 21px;
+    color: rgb(75, 74, 74);
+  }
 
-    .ParaSecond {
-        width: 325px;
-    }
+  .ParaSecond {
+    width: 325px;
+  }
 
-    .headerforMobile {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        gap: 25px;
-        padding: 35px;
-        z-index: 100;
-    }
+  .headerforMobile {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    gap: 25px;
+    padding: 35px;
+    z-index: 100;
+  }
 
-    .image01 {
-        display: none;
-        width: 50rem;
-        height: 26rem;
-    }
+  .image01 {
+    display: none;
+    width: 50rem;
+    height: 26rem;
+  }
 
-    .imgmob01 {
-        display: block;
-        width: 24.4rem;
-    }
+  .imgmob01 {
+    display: block;
+    width: 24.4rem;
+  }
 }

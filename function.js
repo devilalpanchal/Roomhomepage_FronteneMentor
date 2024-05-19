@@ -1,11 +1,9 @@
 
-
 const left = document.querySelector('.angleLeft')
 const right = document.querySelector('.anglesRight')
 const FirstSec = document.querySelector('.FirstSec')
 const secondSechide = document.querySelector('.secondSechide')
 const thirdSechide = document.querySelector('.thirdSechide')
-
 
 const hideSectionHeader = document.querySelector('.hideSectionHeader')
 let count = 0;
@@ -29,7 +27,6 @@ left.addEventListener('click', () => {
       hideSectionHeader.innerHTML = array[count]
    }
 })
-
 
 let headerforMobile = document.querySelector('.headerforMobile')
 let threeline = document.querySelector('.threeline')

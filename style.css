@@ -29,17 +29,15 @@ body {
   gap: 30px;
 }
 
-.homepage>div {
+.homepage > div {
   font-size: 19px;
 }
 
-.homepage>div:hover {
+.homepage > div:hover {
   padding-bottom: 3px;
   border-bottom: 2px solid white;
   font-size: 19px;
 }
-
-
 
 .Button {
   background-color: rgb(2, 2, 2);
@@ -47,7 +45,7 @@ body {
   color: aliceblue;
   position: absolute;
   top: 480px;
-  right:395px;
+  right: 395px;
   display: flex;
   padding: 10px;
 }
